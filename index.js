@@ -21,7 +21,7 @@ let server = http.createServer((req, res) => {
         res.setHeader('Content-Type', 'application/json')
         res.end(JSON.stringify({
             users:[{
-                name: 'Gabriel',
+                name: 'GabrielSappio',
                 email: 'Gabriel.teste2@gmail.com',
                 id: 1
             }]
@@ -35,6 +35,6 @@ let server = http.createServer((req, res) => {
 
 server.listen(3000, '127.0.0.1', () => {
 
-    console.log("servidor rodando!");
+    console.log("servidor rodando tudo ok!");
 
 });
