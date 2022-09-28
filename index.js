@@ -22,7 +22,7 @@ let server = http.createServer((req, res) => {
         res.end(JSON.stringify({
             users:[{
                 name: 'Gabriel',
-                email: 'Gabriel.teste@gmail.com',
+                email: 'Gabriel.teste2@gmail.com',
                 id: 1
             }]
         }));
