@@ -11,6 +11,6 @@ consign().include('routes').into(app);
 
 app.listen(3000, '127.0.0.1', () => {
 
-    console.log("servidor rodando OK!");
+    console.log("servidor rodando!");
 
 });
