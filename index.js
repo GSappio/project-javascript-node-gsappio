@@ -9,8 +9,8 @@ app.use(bodyParser.json());
 
 consign().include('routes').into(app);
 
-app.listen(3000, '127.0.0.1', () => {
+app.listen(8080, '127.0.0.1', () => {
 
-    console.log("servidor rodando!");
+    console.log("servidor rodando OK ok ok!");
 
 });
